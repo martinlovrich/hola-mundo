@@ -1,0 +1,64 @@
+body{
+    
+        background-color: rgb(240, 227, 196);
+        font-style: italic;
+        background-size: cover;
+        margin:0;
+        padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+
+#galeria1 img:hover{
+    transform:scale(1.05);
+}
+#galeria2 img:hover{
+    transform:scale(1.05);
+}
+#galeria1 .col-lg-3{
+    box-shadow: 2px 2px 2px 2px rgb(226, 192, 147);
+    padding: 20px;
+    margin: 0 !important;
+    width: 300px;
+    height: 300px;
+}
+
+#galeria1 img{
+    width: 100%;
+    height: 250px;
+    transition: transform 0.8s;
+    cursor: pointer;
+
+}
+
+#galeria2 .col-lg-3{
+    margin: 0 !important;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(226, 192, 147);
+    width: 300px;
+    height: 300px;
+    
+}
+
+#galeria2 img{
+    width: 100%;
+    height: 250px;
+    transition: transform 0.8s;
+    cursor: pointer
+
+}
+form{
+    width: 40%;
+    padding: 10px;
+    border: solid 3px;
+}
+
+
+
+
+
